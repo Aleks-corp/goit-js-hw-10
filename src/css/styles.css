@@ -11,10 +11,42 @@ body {
   color: #212121;
   line-height: 1.5;
 }
-
+p {
+  margin: 0;
+  padding: 0;
+}
+li,
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
 #search-box {
   font: inherit;
   padding: 8px;
   max-width: 320px;
   margin-bottom: 16px;
+}
+.country-info,
+.country-list {
+  margin-left: 10px;
+}
+.country-list-name {
+  margin-left: 10px;
+  font-size: 16px;
+}
+.country-list-item {
+  display: flex;
+}
+
+.country-name {
+  margin-left: 20px;
+  font-size: 24px;
+}
+.country-info-item {
+  font-size: 18px;
+  font-weight: 500;
+}
+.country-info-name {
+  display: flex;
 }
